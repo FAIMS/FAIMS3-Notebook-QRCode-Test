@@ -1,1 +1,236 @@
-[{"references":[],"_id":"local-autoincrementers","_rev":"2-9da07d6094fd67cd89998d9ece3c6c2c"},{"is_attachment":false,"metadata":{"accessFORM1":["admin"]},"_id":"project-metadata-access","_rev":"2-fc06e1a400851ef60f7aad8b45eeda06"},{"is_attachment":false,"metadata":["admin","moderator","team"],"_id":"project-metadata-accesses","_rev":"2-57281ad43adb1c626b6712c50bd29606"},{"is_attachment":false,"metadata":{},"_id":"project-metadata-behavious","_rev":"2-1c1e70eda0fd9ccb266977d0f62e13ec"},{"is_attachment":false,"metadata":[],"_id":"project-metadata-filenames","_rev":"2-0e21d7026c192d6f8e1c192809e7a970"},{"is_attachment":false,"metadata":{"FORM1":{"submitActionFORM1":"Save and New","annotationFORM1":true,"uncertaintyFORM1":false,"formaccessinheritFORM1":false,"visibleFORM1":true}},"_id":"project-metadata-forms","_rev":"2-917b272385022f74cb5c0292112aa784"},{"is_attachment":false,"metadata":false,"_id":"project-metadata-ispublic","_rev":"2-df2511ff05f875033b7cf55771d06534"},{"is_attachment":false,"metadata":false,"_id":"project-metadata-isrequest","_rev":"2-975cd0e378113113b0a64dadff3aed1d"},{"is_attachment":false,"metadata":"","_id":"project-metadata-lead_institution","_rev":"2-58fad826e316f6023e949c62495d49b7"},{"is_attachment":false,"metadata":{},"_id":"project-metadata-meta","_rev":"2-d9ce6af4a179d5e1702f8730a2f02446"},{"is_attachment":false,"metadata":"Testing","_id":"project-metadata-pre_description","_rev":"2-8b151fdd21c10b103bf31c2ecfbd317e"},{"is_attachment":false,"metadata":"","_id":"project-metadata-project_lead","_rev":"2-b15e5b882808b5dc6c8ca71d81ceac4c"},{"is_attachment":false,"metadata":"draft","_id":"project-metadata-project_status","_rev":"2-f69746cdc7ed06c9bd917fc7b0c40df0"},{"is_attachment":false,"metadata":{"project_status":"draft","accesses":["admin","moderator","team"],"forms":{"FORM1":{"submitActionFORM1":"Save and New","annotationFORM1":true,"uncertaintyFORM1":false,"formaccessinheritFORM1":false,"visibleFORM1":true}},"sections":{},"meta":{},"access":{"accessFORM1":["admin"]},"ispublic":false,"isrequest":false,"behavious":{},"project_lead":"","lead_institution":"","pre_description":"Testing","filenames":[]},"_id":"project-metadata-projectvalue","_rev":"2-4334fedefde62237ddf7e4442647e888"},{"is_attachment":false,"metadata":{},"_id":"project-metadata-sections","_rev":"2-546ea5c1b110d2857205f182c4e8f9bc"},{"fields":{"newfieldbba2f42a":{"component-namespace":"formik-material-ui","component-name":"TextField","type-returned":"faims-core::String","component-parameters":{"fullWidth":true,"helperText":"Helper Text","variant":"outlined","required":false,"InputProps":{"type":"text"},"SelectProps":{},"InputLabelProps":{"label":"Name"},"FormHelperTextProps":{},"id":"newfieldbba2f42a","name":"newfieldbba2f42a"},"validationSchema":[["yup.string"]],"initialValue":"","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}},"newfield8fbca869":{"component-namespace":"qrcode","component-name":"QRCodeFormField","type-returned":"faims-core::String","component-parameters":{"name":"newfield8fbca869","id":"newfield8fbca869","variant":"outlined","required":false,"label":"","FormLabelProps":{"children":"Input a value here"}},"validationSchema":[["yup.string"]],"initialValue":"1","access":["admin"],"meta":{"annotation_label":"annotation","annotation":true,"uncertainty":{"include":false,"label":"uncertainty"}}}},"fviews":{"FORM1SECTION1":{"fields":["newfieldbba2f42a","newfield8fbca869"],"uidesign":"form","label":"SECTION1"}},"viewsets":{"FORM1":{"views":["FORM1SECTION1"],"label":"Form1"}},"visible_types":["FORM1"],"_id":"ui-specification","_rev":"2-470bf4e85c086cb6add956f7bac96ae4"}]
+[
+    {
+        "references": [],
+        "_id": "local-autoincrementers",
+        "_rev": "2-9da07d6094fd67cd89998d9ece3c6c2c"
+    },
+    {
+        "is_attachment": false,
+        "metadata": {
+            "accessFORM1": [
+                "admin"
+            ]
+        },
+        "_id": "project-metadata-access",
+        "_rev": "2-fc06e1a400851ef60f7aad8b45eeda06"
+    },
+    {
+        "is_attachment": false,
+        "metadata": [
+            "admin",
+            "moderator",
+            "team"
+        ],
+        "_id": "project-metadata-accesses",
+        "_rev": "2-57281ad43adb1c626b6712c50bd29606"
+    },
+    {
+        "is_attachment": false,
+        "metadata": {},
+        "_id": "project-metadata-behavious",
+        "_rev": "2-1c1e70eda0fd9ccb266977d0f62e13ec"
+    },
+    {
+        "is_attachment": false,
+        "metadata": [],
+        "_id": "project-metadata-filenames",
+        "_rev": "2-0e21d7026c192d6f8e1c192809e7a970"
+    },
+    {
+        "is_attachment": false,
+        "metadata": {
+            "FORM1": {
+                "submitActionFORM1": "Save and New",
+                "annotationFORM1": true,
+                "uncertaintyFORM1": false,
+                "formaccessinheritFORM1": false,
+                "visibleFORM1": true
+            }
+        },
+        "_id": "project-metadata-forms",
+        "_rev": "2-917b272385022f74cb5c0292112aa784"
+    },
+    {
+        "is_attachment": false,
+        "metadata": false,
+        "_id": "project-metadata-ispublic",
+        "_rev": "2-df2511ff05f875033b7cf55771d06534"
+    },
+    {
+        "is_attachment": false,
+        "metadata": false,
+        "_id": "project-metadata-isrequest",
+        "_rev": "2-975cd0e378113113b0a64dadff3aed1d"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "",
+        "_id": "project-metadata-lead_institution",
+        "_rev": "2-58fad826e316f6023e949c62495d49b7"
+    },
+    {
+        "is_attachment": false,
+        "metadata": {
+            "showQRCodeButton": "true"
+        },
+        "_id": "project-metadata-meta",
+        "_rev": "2-d9ce6af4a179d5e1702f8730a2f02446"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "Testing",
+        "_id": "project-metadata-pre_description",
+        "_rev": "2-8b151fdd21c10b103bf31c2ecfbd317e"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "",
+        "_id": "project-metadata-project_lead",
+        "_rev": "2-b15e5b882808b5dc6c8ca71d81ceac4c"
+    },
+    {
+        "is_attachment": false,
+        "metadata": "draft",
+        "_id": "project-metadata-project_status",
+        "_rev": "2-f69746cdc7ed06c9bd917fc7b0c40df0"
+    },
+    {
+        "is_attachment": false,
+        "metadata": {
+            "project_status": "draft",
+            "accesses": [
+                "admin",
+                "moderator",
+                "team"
+            ],
+            "forms": {
+                "FORM1": {
+                    "submitActionFORM1": "Save and New",
+                    "annotationFORM1": true,
+                    "uncertaintyFORM1": false,
+                    "formaccessinheritFORM1": false,
+                    "visibleFORM1": true
+                }
+            },
+            "sections": {},
+            "meta": {},
+            "access": {
+                "accessFORM1": [
+                    "admin"
+                ]
+            },
+            "ispublic": false,
+            "isrequest": false,
+            "behavious": {},
+            "project_lead": "",
+            "lead_institution": "",
+            "pre_description": "Testing",
+            "filenames": []
+        },
+        "_id": "project-metadata-projectvalue",
+        "_rev": "2-4334fedefde62237ddf7e4442647e888"
+    },
+    {
+        "is_attachment": false,
+        "metadata": {},
+        "_id": "project-metadata-sections",
+        "_rev": "2-546ea5c1b110d2857205f182c4e8f9bc"
+    },
+    {
+        "fields": {
+            "newfieldbba2f42a": {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::String",
+                "component-parameters": {
+                    "fullWidth": true,
+                    "helperText": "Helper Text",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps": {
+                        "type": "text"
+                    },
+                    "SelectProps": {},
+                    "InputLabelProps": {
+                        "label": "Name"
+                    },
+                    "FormHelperTextProps": {},
+                    "id": "newfieldbba2f42a",
+                    "name": "newfieldbba2f42a"
+                },
+                "validationSchema": [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access": [
+                    "admin"
+                ],
+                "meta": {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty": {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield8fbca869": {
+                "component-namespace": "qrcode",
+                "component-name": "QRCodeFormField",
+                "type-returned": "faims-core::String",
+                "component-parameters": {
+                    "name": "newfield8fbca869",
+                    "id": "newfield8fbca869",
+                    "variant": "outlined",
+                    "required": false,
+                    "label": "",
+                    "FormLabelProps": {
+                        "children": "Input a value here"
+                    }
+                },
+                "validationSchema": [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "1",
+                "access": [
+                    "admin"
+                ],
+                "meta": {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty": {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            }
+        },
+        "fviews": {
+            "FORM1SECTION1": {
+                "fields": [
+                    "newfieldbba2f42a",
+                    "newfield8fbca869"
+                ],
+                "uidesign": "form",
+                "label": "SECTION1"
+            }
+        },
+        "viewsets": {
+            "FORM1": {
+                "views": [
+                    "FORM1SECTION1"
+                ],
+                "label": "Form1"
+            }
+        },
+        "visible_types": [
+            "FORM1"
+        ],
+        "_id": "ui-specification",
+        "_rev": "2-470bf4e85c086cb6add956f7bac96ae4"
+    }
+]
